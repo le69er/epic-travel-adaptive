@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>О компании — ЭпикТрэвел</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media-tablet.css">
+    <link rel="stylesheet" href="./css/media-mobile.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="icon" sizes="180x180" href="./img/favicons/favicon.svg">
+</head>
+
+<body class="sticky-footer">
+
+    <header class="header header-bg">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html">
+                    <img src="./img/logo.svg" alt="Epic Travel">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="tours.html">Туры</a></li>
+                    <li><a href="about.html" class="active">О компании</a></li>
+                    <li><a href="contacts.html">Контакты</a></li>
+                </ul>
+                <button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+                    <img src="./img/icons/open-mobile-nav.svg" id="mobile-nav-img" alt="Open nav">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="mobile-nav " id="mobile-nav">
+        <h2 class="visually-hidden">Навигация</h2>
+        <ul class="mobile-nav-list">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./tours.html">Туры</a></li>
+            <li><a href="./about.html">О компании</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </section>
+
+    <main class="inner-page">
+        <div class="container">
+
+            <div class="inner-page-title-wrapper">
+                <h1 class="title-1 text-center">О компании</h1>
+            </div>
+
+            <div class="article-content">
+                <p>
+                    ЭпикТрэвел - это ведущее агентство путешествий, стремящееся преобразить ваши отпуска в незабвенные приключения. Наша миссия заключается в том, чтобы предоставить клиентам не просто отдых, но истинные впечатления, заполняющие каждое путешествие смыслом и радостью. Мы гордимся тем, что создаем маршруты, которые не только озаряют карту мира, но и оставляют след в вашем сердце.
+                </p>
+
+                <div class="article-img">
+                    <picture>
+                        <source srcset="./img/about/about-mobile.jpg, ./img/about/about-mobile@2x.jpg 2x" media="(max-width: 767px)">
+                        <source srcset="./img/about/about-tablet.jpg, ./img/about/about-tablet@2x.jpg 2x" media="(max-width: 1199px)">
+                        <img src="./img/about/about.jpg" srcset="./img/about/about@2x.jpg 2x" alt="Катер на речке">
+                    </picture>
+                </div>
+
+                <p>
+                    С ЭпикТрэвел вы становитесь частью сообщества путешественников, ценящих красоту разнообразия и открывающих для себя новые горизонты. Наша команда профессионалов заботится о каждой детали вашего путешествия, чтобы вы могли просто наслаждаться каждым моментом, зная, что мы позаботились обо всем.
+                </p>
+
+                <p>
+                    Исследуйте мир с ЭпикТрэвел – вашим надежным партнером в создании незабываемых воспоминаний. Путешествуйте с нами, ведь для нас каждый клиент – не просто пассажир, а участник уникального путешествия, ожидающего своего следующего эпического открытия.
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <p>2024 © ЭпикТрэвел.<br>Все права защищены</p>
+                </div>
+                <address class="footer-contacts">
+                    <a href="tel:+79054561234" class="footer-phone">+7 (905) 456-12-34</a><br>
+                    <a href="mailto:info@epictravel.ru" class="footer-email">info@epictravel.ru</a><br>
+                    <p class="footer-address">г. Москва, Рязанский проспект 54, офис 112</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

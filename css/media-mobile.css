@@ -1,0 +1,106 @@
+/* Mobile */
+@media (max-width: 767px) {
+    .container {
+        width: 320px;
+    }
+
+    .article-content {
+        width: 290px;
+    }
+
+    .desktop-only {
+        display: none !important;
+    }
+
+    .nav-list {
+        display: none;
+    }
+
+    .btn-mobile-nav {
+        display: block;
+    }
+
+    .promo {
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    .promo-title {
+        font-size: 34px;
+    }
+
+    .promo-text {
+        font-size: 14px;
+    }
+
+    .main-content {
+        padding: 40px 0;
+        gap: 40px;
+    }
+
+    .content-row {
+        flex-direction: column;
+        row-gap: 20px;
+    }
+
+    .content-img {
+        flex-basis: 120px;
+        background-size: cover;
+    }
+
+    .title-1 {
+        font-size: 28px;
+    }
+
+    .title-2 {
+        font-size: 22px;
+    }
+
+    .title-3 {
+        font-size: 18px;
+    }
+
+    .content-column-on-mobile {
+        flex-direction: column !important;
+    }
+
+    /* inner page*/
+    .inner-page {
+        padding: 40px 0;
+    }
+
+    .cards-wrapper {
+        row-gap: 20px;
+    }
+
+    .card-description p {
+        font-size: 14px;
+    }
+
+    /* article */
+    .article-content p {
+        font-size: 14px;
+    }
+
+    .article-content p+p {
+        margin-top: 14px;
+    }
+
+    .article-img {
+        margin: 20px 0;
+    }
+
+    /* contacts */
+    .address-wrapper {
+        gap: 20px;
+        font-size: 14px;
+    }
+
+    .form-wrapper {
+        padding: 20px 15px;
+        font-size: 14px;
+    }
+}

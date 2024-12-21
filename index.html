@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ЭпикТрэвел</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media-tablet.css">
+    <link rel="stylesheet" href="./css/media-mobile.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="icon" sizes="180x180" href="./img/favicons/favicon.svg">
+</head>
+
+<body class="sticky-footer">
+
+    <header class="header" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html" class="logo">
+                    <img src="./img/logo.svg" alt="Epic Travel">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="./index.html" class="active">Главная</a></li>
+                    <li><a href="./tours.html">Туры</a></li>
+                    <li><a href="./about.html">О компании</a></li>
+                    <li><a href="./contacts.html">Контакты</a></li>
+                </ul>
+                <button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+                    <img src="./img/icons/open-mobile-nav.svg" id="mobile-nav-img" alt="Open nav">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="mobile-nav " id="mobile-nav">
+        <h2 class="visually-hidden">Навигация</h2>
+        <ul class="mobile-nav-list">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./tours.html">Туры</a></li>
+            <li><a href="./about.html">О компании</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </section>
+
+    <main class="main-page">
+        <div class="container">
+
+            <section class="promo">
+                <div class="promo-desc">
+                    <h1 class="promo-title">Открой Мир</h1>
+                    <p class="promo-text">Путешествуй. Исследуй. Открывай</p>
+                </div>
+            </section>
+
+            <div class="main-content">
+                <section class="content-row">
+
+                    <div class="content-img">
+                        <picture>
+                            <source srcset="./img/main/img-01-mobile.jpg, ./img/main/img-01-mobile@2x.jpg 2x" media="(max-width:767px)">
+                            <img src="./img/main/img-01.jpg" srcset="./img/main/img-01@2x.jpg 2x" alt="Популярные направления">
+                        </picture>
+                    </div>
+
+                    <div class="content-text">
+                        <h2 class="title-1"><span>Популярные</span> направления</h2>
+                        <p>Уникальные впечатления и незабываемые моменты. От загадочных уголков древних городов до бескрайних пляжей с кристально чистой водой. Погрузитесь в культурные сокровища Европы, ощутите волнение азиатских приключений, или отправьтесь на удивительные острова - выбор за вами.</p>
+                        <p><a href="#!">Подробнее</a></p>
+                    </div>
+
+                </section>
+
+                <section class="content-row content-row-reverse content-column-on-mobile">
+
+                    <div class="content-img">
+                        <picture>
+                            <source srcset="./img/main/img-02-mobile.jpg, ./img/main/img-02-mobile@2x.jpg 2x" media="(max-width:767px)">
+                            <img src="./img/main/img-02.jpg" srcset="./img/main/img-02@2x.jpg 2x" alt="Впечатляющие маршруты">
+                        </picture>
+                    </div>
+
+                    <div class="content-text">
+                        <h2 class="title-1"><span>Впечатляющие</span> маршруты</h2>
+                        <p>Пройдите путем, который проложен для тех, кто ищет нечто особенное: от восхитительных природных пейзажей и культурных сокровищ до захватывающих городских приключений. Поддайтесь магии увлекательных маршрутов ЭпикТрэвел и дайте волю своим мечтам – ведь ваше следующее приключение начинается здесь и сейчас.</p>
+                        <p><a href="#!">Подробнее</a></p>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <p>2024 © ЭпикТрэвел.<br class="desktop-only"> Все права защищены</p>
+                </div>
+                <address class="footer-contacts">
+                    <a href="tel:+79054561234" class="footer-phone">+7 (905) 456-12-34</a><br>
+                    <a href="mailto:info@epictravel.ru" class="footer-email">info@epictravel.ru</a><br>
+                    <p class="footer-address">г. Москва, Рязанский проспект 54, офис 112</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

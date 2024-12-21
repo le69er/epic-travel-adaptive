@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты — ЭпикТрэвел</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media-tablet.css">
+    <link rel="stylesheet" href="./css/media-mobile.css">
+    <link rel="icon" type="image/x-icon" href="./img/favicons/favicon.svg">
+    <link rel="icon" sizes="180x180" href="./img/favicons/favicon.svg">
+</head>
+
+<body class="sticky-footer">
+
+    <header class="header header-bg" id="header">
+        <div class="container">
+            <nav class="nav">
+                <a href="./index.html">
+                    <img src="./img/logo.svg" alt="Epic Travel">
+                </a>
+                <ul class="nav-list">
+                    <li><a href="./index.html">Главная</a></li>
+                    <li><a href="tours.html">Туры</a></li>
+                    <li><a href="about.html">О компании</a></li>
+                    <li><a href="contacts.html" class="active">Контакты</a></li>
+                </ul>
+                <button class="btn-mobile-nav" id="btn-mobile-nav" type="button">
+                    <img src="./img/icons/open-mobile-nav.svg" id="mobile-nav-img" alt="Open nav">
+                </button>
+            </nav>
+        </div>
+    </header>
+
+    <section class="mobile-nav " id="mobile-nav">
+        <h2 class="visually-hidden">Навигация</h2>
+        <ul class="mobile-nav-list">
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./tours.html">Туры</a></li>
+            <li><a href="./about.html">О компании</a></li>
+            <li><a href="./contacts.html">Контакты</a></li>
+        </ul>
+    </section>
+
+    <main class="inner-page">
+        <div class="container">
+
+            <div class="inner-page-title-wrapper">
+                <h1 class="title-1 text-center">Контакты</h1>
+            </div>
+
+            <div class="contacts-columns">
+                <form class="form-wrapper">
+
+                    <h2 class="title-2">Заявка на подбор тура</h2>
+
+                    <section class="form-group">
+                        <h3 class="title-3">Личные данные</h3>
+                        <div class="inputs-wrapper">
+                            <input type="text" class="input" placeholder="Введите имя" name="name">
+                            <input type="tel" class="input input-50" placeholder="Телефон" name="phone">
+                            <input type="email" class="input input-50" placeholder="Email" name="email">
+                        </div>
+                    </section>
+
+                    <section class="form-group">
+                        <h3 class="title-3">Количество человек для тура</h3>
+                        <ul class="radio-list">
+                            <li>
+                                <label>
+                                    <input type="radio" class="real-radio visually-hidden" name="number" value="2-4">
+                                    <span class="fake-radio"></span>
+                                    2 - 4 человека
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" class="real-radio visually-hidden" name="number" value="5-10">
+                                    <span class="fake-radio"></span>
+                                    5 - 10 человек
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="radio" class="real-radio visually-hidden" name="number" value="11+">
+                                    <span class="fake-radio"></span>
+                                    11 человек и более
+                                </label>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <section class="form-group">
+                        <h3 class="title-3">Какие направления вам интересны</h3>
+                        <ul class="checkbox-list">
+                            <li>
+                                <label>
+                                    <input type="checkbox" class="real-checkbox visually-hidden" name="tracking">
+                                    <span class="fake-checkbox"></span>
+                                    Трекинг туры, походы по горам и пересеченной местности.
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" class="real-checkbox visually-hidden" name="mountains">
+                                    <span class="fake-checkbox"></span>
+                                    Восхождения на вершины.
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" class="real-checkbox visually-hidden" name="exotic">
+                                    <span class="fake-checkbox"></span>
+                                    Экзотические джунгли, вулканы.
+                                </label>
+                            </li>
+                            <li>
+                                <label>
+                                    <input type="checkbox" class="real-checkbox visually-hidden" name="combination">
+                                    <span class="fake-checkbox"></span>
+                                    Комбинированные: море, горы, города, лес.
+                                </label>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <button class="submit-btn" type="submit">Отправить заявку</button>
+
+                </form>
+
+                <section class="address-wrapper">
+
+                    <div class="address-item">
+                        <h2 class="title-2">Телефон и адрес</h2>
+                        <address>
+                            <ul class="address-list">
+                                <li> <img src="./img/icons/phone.svg" alt="Телефон">+7 (905) 456-12-34</li>
+                                <li> <img src="./img/icons/mail.svg" alt="Email">info@epictravel.ru</li>
+                                <li> <img src="./img/icons/map.svg" alt="Адрес">г. Москва, Рязанский проспект 54, офис 112.</li>
+                            </ul>
+                        </address>
+                    </div>
+
+                    <div class="address-item">
+                        <h2 class="title-2">Карта</h2>
+                        <iframe class="yandex-map" src="https://yandex.ru/map-widget/v1/?um=constructor%3A3b670b8114ade080102dbf2389e23ba9033fcf7744602ebf698190618f6eaeed&amp;source=constructor" style="border: none;"></iframe>
+                    </div>
+
+                </section>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-row">
+                <div class="footer-copyright">
+                    <p>2024 © ЭпикТрэвел.<br>Все права защищены</p>
+                </div>
+                <address class="footer-contacts">
+                    <a href="tel:+79054561234" class="footer-phone">+7 (905) 456-12-34</a><br>
+                    <a href="mailto:info@epictravel.ru" class="footer-email">info@epictravel.ru</a><br>
+                    <p class="footer-address">г. Москва, Рязанский проспект 54, офис 112</p>
+                </address>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
